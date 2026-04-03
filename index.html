@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maretti</title>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #ffffff;
+      font-family: "Harlow Solid Italic", cursive;
+    }
+
+    .wrapper {
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      margin: 0 0 24px;
+      font-size: 96px;
+      font-weight: normal;
+      line-height: 1;
+      color: #111;
+    }
+
+    .italy-flag-line {
+      width: 360px;
+      height: 16px;
+      display: flex;
+      margin: 0 auto 28px;
+      border-radius: 999px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    }
+
+    .italy-flag-line div {
+      flex: 1;
+    }
+
+    .green { background: #009246; }
+    .white { background: #ffffff; }
+    .red   { background: #ce2b37; }
+
+    .subtitle {
+      margin: 0;
+      font-size: 28px;
+      color: #444;
+      font-family: Arial, sans-serif;
+      letter-spacing: 0.5px;
+    }
+
+    @media (max-width: 480px) {
+      h1 { font-size: 64px; }
+      .italy-flag-line {
+        width: 260px;
+        height: 12px;
+        margin-bottom: 22px;
+      }
+      .subtitle { font-size: 20px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <h1>Maretti</h1>
+    <div class="italy-flag-line">
+      <div class="green"></div>
+      <div class="white"></div>
+      <div class="red"></div>
+    </div>
+    <p class="subtitle">Сайт скоро будет доступен</p>
+  </div>
+</body>
+</html>
